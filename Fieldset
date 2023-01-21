@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <fieldset>
+
+        <label for="field_age">Age</label>
+
+        <input type="number" name="age" id="field_age" min="18" max="99" value="21">
+
+        <label for="field_sat">Satisfaction</label>
+
+        <input type="range" name="satisfaction" min="1" max="5" value="3" id="field_sat"> (1-5)
+
+    </fieldset>
+</body>
+
+</html>
