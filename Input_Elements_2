@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <form action="submitted.html" method="post">
+        <div>
+            <label for="username">username</label>
+            <input id="username" name="username" type="text">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <h2>Select a car brand:</h2>
+            <label for="Volvo">Volvo</label>
+            <input id="Volvo" type="checkbox" value="VOLVO" name="brand">
+            <label for="BMV">BMV</label>
+            <input id="BMV" type="checkbox" value="BMV" name="brand">
+            <label for="Audi">Audi</label>
+            <input id="Audi" type="checkbox" value="AUDI" name="brand">
+        </div>
+        <div>
+            <h2>Select a location:</h2>
+            <label for="DE">Germany</label>
+            <input id="DE" type="radio" name="location" value="DE">
+            <label for="BG">Bulgaria</label>
+            <input id="BG" type="radio" name="location" value="BG">
+            <label for="FR">France</label>
+            <input id="FR" type="radio" name="location" value="FR">
+        </div>
+        <div>
+            <label for="msg">Massage</label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            <input type="number" min="4.50" max="9.90" step="0.01" id="cpi" name="cpi" required="required" title="CPI" class="formfield3" />
+        </div>
+        
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
